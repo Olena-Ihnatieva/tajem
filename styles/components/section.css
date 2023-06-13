@@ -1,0 +1,321 @@
+.section {
+  padding: 70px 0;
+  position: relative;
+}
+
+.section-background,
+.section-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.section-background {
+  z-index: -2;
+}
+
+.section-background > img {
+  height: 100%;
+}
+
+.section-overlay {
+  z-index: -1;
+  background-image: -webkit-gradient(linear, left top, right top, from(#09052f), to(#311d5e));
+  background-image: -o-linear-gradient(left, #09052f 0%, #311d5e 100%);
+  background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
+  opacity: 0.85;
+}
+
+.section-hero {
+  padding: 0;
+}
+
+.section-hero .section-foreground {
+  min-height: 670px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-hero .section-header {
+  padding: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-hero .section-body {
+  padding: 32px 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+.section-hero .section-body .section-content {
+  max-width: 771px;
+  text-align: center;
+}
+
+.section-hero .section-description {
+  line-height: 24px;
+  margin-bottom: 50px;
+}
+
+.section-story {
+  min-height: 402px;
+}
+
+.section-story .section-description {
+  margin: 24px 0;
+  opacity: 0.75;
+  line-height: 22px;
+  letter-spacing: 0.42px;
+}
+
+.section-video {
+  min-height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+.section-video .section-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-video .section-title {
+  font-family: inherit;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin: 0;
+}
+
+.section-expertise {
+  min-height: 755px;
+  text-align: center;
+}
+
+.section-expertise .section-subtitle {
+  opacity: 0.75;
+  color: #2f2d35;
+  letter-spacing: 1.05px;
+}
+
+.section-teams {
+  min-height: 712px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  color: #fff;
+}
+
+.section-teams .section-subtitle {
+  color: #f9f9f9;
+  letter-spacing: 1.05px;
+}
+
+.section-teams .section-slogan {
+  margin-top: 70px;
+}
+
+.section-teams .section-slogan-team {
+  color: #f3f3f3;
+  margin-bottom: 26px;
+}
+
+.section-works {
+  min-height: 667px;
+}
+
+.section-works .section-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-works .section-header .section-title {
+	margin: 0;
+}
+
+.section-works .section-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-works .section-icon {
+  font-size: 25px;
+}
+
+.section-works .section-button {
+  text-align: center;
+}
+
+.section-comments .section-foreground {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-comments .section-body .section-content {
+  max-width: 770px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.section-comments-icon {
+  opacity: 0.9;
+  font-size: 26px;
+}
+
+.section-feedback {
+  min-height: 654px;
+}
+
+.section-feedback .section-title {
+  margin-bottom: 35px;
+}
+
+.section-contact {
+  min-height: 400px;
+  color: #ffffff;
+}
+
+.section-contact .section-description {
+  line-height: 26px;
+  letter-spacing: 0.35px;
+}
+
+.section-contact .section-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-contact .section-title {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  line-height: 26px;
+  letter-spacing: 0.75px;
+  margin-bottom: 40px;
+  padding: 10px 0 0;
+}
+
+.section-contact .contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section-contact .contact-list .list-item > a {
+  color: #ffffff;
+  letter-spacing: 0.35px;
+}
+
+.section-contact .contact-list .list-item {
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.section-contact .contact-list .icon-contact {
+  font-size: 17px;
+  padding-right: 16px;
+}
+
+.section-social-media .section-icon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  font-size: 15px;
+  color: #ffffff;
+  margin-right: 6px;
+}
+
+.section-icon:hover {
+  color: #00e0d0;
+  border-color: #00e0d0;
+}
+
+.section-footer {
+  margin-top: 70px;
+}
